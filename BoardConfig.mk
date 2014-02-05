@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_CONFIG := geehrc_defconfig
+TARGET_KERNEL_CONFIG := gee_defconfig
 
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := geebus,geehrc,e975
+TARGET_OTA_ASSERT_DEVICE := geebus,geehrc,e975,geehrc_4g_spr,geespr,ls970,geehrc4g,geehrc4g_spr_us,gee
 
 # inherit from the proprietary version
 -include vendor/lge/gee/BoardConfigVendor.mk
