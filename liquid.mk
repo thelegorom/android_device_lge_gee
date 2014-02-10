@@ -37,9 +37,9 @@ PRODUCT_MANUFACTURER := LGE
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.gee.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # Kernel inline build
-TARGET_KERNEL_CONFIG := geehrc_defconfig
-TARGET_VARIANT_CONFIG := geehrc_defconfig
-TARGET_SELINUX_CONFIG := geehrc_defconfig
+TARGET_KERNEL_CONFIG := gee_defconfig
+TARGET_VARIANT_CONFIG := gee_defconfig
+TARGET_SELINUX_CONFIG := gee_defconfig
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/gee/device.mk)
