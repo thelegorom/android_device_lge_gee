@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Get the long list of APNs
-PRODUCT_COPY_FILES := device/lge/gee/apns-sprint-conf.xml:system/etc/apns-conf.xml
+$(call inherit-product-if-exists, vendor/omni/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
