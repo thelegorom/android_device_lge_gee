@@ -26,7 +26,3 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/gee-common/overlay
 
 # Inherit from gee-common
 $(call inherit-product, device/lge/gee-common/gee-common.mk)
-
-#NFC firmware
-PRODUCT_COPY_FILES += \
-    device/lge/gee/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
