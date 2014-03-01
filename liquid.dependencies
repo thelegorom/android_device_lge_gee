@@ -1,19 +1,19 @@
 [
   {
     "remote": "github",
-    "repository": "xboxfanj/android_device_lge_gee-common",
+    "repository": "spleef/android_device_lge_gee-common",
     "target_path": "device/lge/gee-common",
     "revision": "vanir"
   },
   {
     "remote": "github",
-    "repository": "xboxfanj/proprietary_vendor_lge",
+    "repository": "spleef/proprietary_vendor_lge-xbox",
     "target_path": "vendor/lge/gee",
     "revision": "android-4.4"
   },
   {
     "remote": "github",
-    "repository": "xboxfanj/kernel_msm",
+    "repository": "spleef/kernel_msm",
     "target_path": "kernel/lge/gee",
     "revision": "xb"
   }
