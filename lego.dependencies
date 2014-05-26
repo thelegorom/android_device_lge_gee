@@ -1,14 +1,14 @@
 [
   {
     "remote": "github",
-    "repository": "thelegorom/android_device_lge_gee-common",
+    "repository": "LiquidSmooth/android_device_lge_gee-common",
     "target_path": "device/lge/gee-common",
     "revision": "vanir"
   },
   {
     "remote": "github",
-    "repository": "cameron581/kernel_msm",
+    "repository": "cdub50/kernel_msm",
     "target_path": "kernel/lge/gee",
-    "revision": "glitch-mod"
+    "revision": "matr1x-sm"
   }
 ]
